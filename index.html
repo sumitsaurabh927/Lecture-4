@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Minion</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="heading">Minions say what?!</h1>
+    </div>
+    <div class="body">
+      <div class="input">
+        <textarea
+          class="boxOne"
+          id="txt"
+          placeholder="Enter the text to be translated..."
+        ></textarea>
+      </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana talk</title>
+      <div class="more">
+        <button id="click">Translate to minion language!</button>
 
-</head>
+        <div id="out">👇Output of the entered text is here 👇</div>
+      </div>
+      <div id="output" class="output">
+        <textarea
+          class="boxTwo"
+          id="outputText"
+          placeholder="This is the translated text"
+        ></textarea>
+      </div>
+    </div>
 
-<body>
-    <h1>Go banana</h1>
-    <button id="btn">Magic</button>
-    <textarea placeholder="fill in something here" id="txt"></textarea>
-    <hr>
-    <textarea id="output"></textarea>
-
-</body>
-<script src="./app.js"></script>
-
+    <div class="bottom">
+      <h2 id="headingTwo">And you thought Minions talk gibberish!</h2>
+    </div>
+    <script src="/app.js" type="text/javascript"></script>
+  </body>
 </html>
