@@ -1,1 +1,5 @@
-console.log("hello from the outside");
+var btn = document.querySelector("#btn");
+console.log(btn);
+btn.addEventListener("click", function click() {
+    console.log("Magic")
+});
